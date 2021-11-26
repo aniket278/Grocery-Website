@@ -1,0 +1,329 @@
+.footer {
+    padding: 5em 0 2em;
+    background: #2b2a2a;
+}
+.w3_footer_grid h3 {
+    color: #ffffff;
+    font-size: 1.5em;
+    margin-bottom: 1.8em;
+    text-transform: uppercase;
+}
+.w3_footer_grid p{
+	color:#afafaf;
+	line-height:1.8em;
+	margin-bottom:2em;
+}
+.w3_footer_grid ul li {
+    list-style-type: none;
+    margin-bottom: 1em;
+    color: #afafaf;
+    font-size: 14px;
+}
+.w3_footer_grid ul.address li i {
+    color: #388E3C;
+    border: 1px solid #38458e;
+    padding: .5em;
+    margin-right: 1em;
+}
+.w3_footer_grid ul.address li span {
+    display: block;
+    margin-left: 3em;
+}
+.w3_footer_grid ul li a {
+    color: #afafaf;
+    text-decoration: none;
+}
+.w3_footer_grid ul li a:hover {
+	color:#388e3c;
+}
+.w3_footer_grid h4{
+	margin:2em 0 1em;
+	font-size:1.2em;
+	color:#ff9b05;
+}
+i.fa.fa-arrow-right {
+    color: #fe9126;
+    margin-right: 10px;
+}
+.footer-copy1{
+	position:relative;
+	padding: 2em 0 0;
+    border-bottom: 1px solid #F4F4F4;
+}
+.footer-copy-pos{
+	position: absolute;
+    right: 14%;
+    bottom: -75%;
+    width: 50px;
+    height: 50px;
+    border: 3px solid rgba(254, 155, 5, 0.69);
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -o-border-radius: 25px;
+    -ms-border-radius: 25px;
+    box-shadow: 0px 0px 15px rgba(255, 155, 5, 0.49);
+}
+.footer-copy p{
+	margin:4em 0 0;
+	text-align:center;
+	color:#999;
+	line-height:1.8em;
+}
+.footer-copy p a{
+	color:#ff9b05;
+	text-decoration:none;
+}
+.footer-copy p a:hover{
+	color:#999;
+}
+.w3layouts-foot ul li{
+	display:inline-block;
+}
+.w3layouts-foot ul li a {
+    width: 32px;
+    height: 32px;
+    color: #fff;
+    border: 1px solid #fff;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 32px;
+    border-radius: 50%;
+}
+
+.modal-footer:before,
+.modal-footer:after {
+  display: table;
+  content: " ";
+}
+.modal-footer:after {
+  clear: both;
+}
+footer{
+	display: block;
+}
+.breadcrumbs {
+    padding: 1.5em 0;
+    background: #f5f5f5;
+}
+.breadcrumb {
+    margin-bottom: 0 !important;
+    padding: 0 !important;
+}
+.breadcrumb1 li span {
+    left: 0em;
+    padding-right: 1em;
+    color: #3399cc;
+}
+.breadcrumb1 li {
+    font-size: 1em;
+    color: #999;
+}
+.breadcrumb1 li a {
+    color: #3399cc;
+    text-decoration: none;
+}
+
+.about,.about-team {
+    padding: 5em 0;
+}
+.about-agileinfo {
+    margin-top: 4em;
+}
+.about .grid-top h4 {
+    font-size: 1.5em;
+    color: #222;
+    letter-spacing: 4px;
+}
+.about img {
+    width: 100%;
+}
+.about-w3imgs {
+    padding: 0;
+    overflow: hidden;
+}
+.about .grid-top p {
+    font-size: 1em;
+    color: #999;
+    line-height: 1.8em;
+    margin: 1em 0 2.5em;
+}
+.about .grid-top p.top {
+    margin: 1em 0;
+}
+.offic-time {
+    text-align: center;
+}
+.time-top {
+    padding: 1em;
+    background-color: #388e3c;
+}
+.time-top h4 {
+    font-size: 1.7em;
+    color: #fff;
+}
+.time-bottom {
+    padding: 1.6em 2em;
+    background-color: #212121;
+}
+.time-bottom h5 {
+    font-size: 1.1em;
+    color: #FFF;
+    line-height: 1.8em;
+    letter-spacing: 1px;
+}
+.time-bottom p {
+    font-size: 1em;
+    color: #BBBBBB;
+    margin-top: 0.5em;
+    line-height: 1.8em;
+}
+
+h3.w3_agile_header, h2.w3_agile_header {
+    font-size: 2em;
+}
+h3.w3_agile_header,h2.w3_agile_header {
+    text-align: center;
+    color: #212121;
+    padding-bottom: .5em;
+    position: relative;
+    font-size: 2.5em;
+    text-transform: uppercase
+}
+h3.w3_agile_header:after,h2.w3_agile_header:after{
+    content: '';
+    background: #3399cc;
+    height: 2px;
+    width: 15%;
+    position: absolute;
+    bottom: 0%;
+    left: 43%;
+}
+.about-team-grids {
+    background: #3399cc;
+    padding: 2em 1em;
+    margin-left: 5px;
+    width: 24.5%;
+}
+.about-team-grids img {
+    width: 100%;
+}
+.about-team-grids h4 {
+    color: #000;
+    font-size: 1.1em;
+    margin: 1.5em 0 0.5em;
+}
+.about-team-grids h4 span {
+    font-size: 1.3em;
+    color: #000;
+    margin-right: 10px;
+}
+.team-w3lstext h6 {
+    color: #67686b;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    letter-spacing: 0px;
+}
+.about-team-grids p {
+    color: #fff;
+    font-size: 14PX;
+    line-height: 1.8em;
+    font-weight: 400;
+    margin-top: 1em;
+}
+.about-grid1 .thumb .caption {
+    float: left;
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 13px 30px;
+    text-align: center;
+    background-color:rgba(81, 92, 142, 0.55);
+    -o-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.about-grid1 .thumb:hover .caption {
+    height: 100%;
+    padding: 40px 30px;
+    opacity: 1;
+    visibility: visible;
+}
+.caption {
+    opacity: 0;
+    top: 0%;
+    position: absolute;
+    background-color:rgba(51, 153, 204, 0.58);
+    width: 100%;
+    left: 0;
+    text-align: center; 
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    transition: 0.5s all;
+}
+.social-icons ul li {
+    display: inline-block;
+    font-size: inherit;
+    text-align: center;
+    margin: 0;
+}
+.social-icons ul li a.fa {
+    font-size: 1em;
+    color: #fff;
+    line-height: 2.6em;
+}
+.social-icons.caption ul li a.fa {
+    margin: 0 .5em;
+    line-height: inherit;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    transition: 0.5s all;
+}
+.about-team-grids:hover .caption{
+    display:block;
+    top: 49.2%;
+    opacity:1;
+} 
+.caption ul {
+    padding: 1em 0;
+} 
+.caption ul li a:hover{
+    color:#000;
+}
+.about-slid h2 {
+    font-size: 2.5em;
+}
+.about-slid-info {
+    width: 100%;
+}
+.about-slid{
+    background: url(../images/22.jpg)no-repeat 0px center fixed;
+    background-size: cover;
+    text-align: center;
+    padding: 6em 0;
+}
+.about-slid-info {
+    width: 75%;
+    margin: 0 auto;
+}
+.about-slid h2 {
+    color: #fff;
+    font-size: 3.5em;
+    font-family: 'Abel', sans-serif;
+}
+.about-slid p {
+    color: #fff;
+    font-size: 1em;
+    margin-top: 2em;
+    line-height: 1.8em;
+}
