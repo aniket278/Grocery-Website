@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Place your order</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+   
+
+<h1>Grocery Store Contact Form.</h1>
+<!-- <div class="container-fuid">
+	<div class="nbar">
+			<nav class="navbar navbar-default" style="width:100%; height:35px; background-color:#1a1a1a; border-color: #1a1a1a;">
+  				<div class="container-fluid" id="navpro">
+   					<ul class="nav navbar-nav navbar-right">
+   						<li><a href="first_page.html"><b style="color: #388E3C;">Home</b></a></li>
+                   </ul>
+                </div>
+            </nav>
+    </div>
+</div>             -->
+<form>
+        <h1>Contact Us</h1>
+<div class="contentform">
+        <div id="sendmessage"> <p class="tag-line">Enter your order here. Thank you. </p> </div>
+    <div class="leftcontact">
+        <div class="form-group">
+            <p>Name <span>*(alphabets only)</span></p>
+            <input type="text" name="prename" id="prename" required placeholder="Enter your Name" pattern="[A-Za-z]+"/>
+
+            </div>
+<!-- End of form-group class 1-->
+
+            <div class="form-group">
+            <p>E-mail <span>*</span></p>
+                <input type="email" name="email" id="email" required placeholder="Enter your email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"/>
+               </div>
+<!-- End of form-group class 2-->
+
+
+            <div class="form-group">
+            <p> Address <span>*</span></p>
+                <input type="text" name="adresse" id="adresse" required placeholder="Enter the address"/>
+
+            </div>
+<!-- End of form-group class 3-->
+
+            <div class="form-group">
+            <p>Pincode <span>*</span></p>
+                <input type="text" name="postal" id="postal" required placeholder="Enter Pincode" pattern="^[1-9][0-9]{5}$"/>
+
+            </div>
+<!-- End of form-group class 4-->
+
+
+    </div>
+
+    <div class="rightcontact">
+
+            <div class="form-group">
+            <p>City<span>*</span></p>
+                <input type="text" name="ville" id="ville" required placeholder="Enter City" pattern="[A-Za-z]+"/>
+
+            </div>
+<!-- End of form-group class 5-->
+
+            <div class="form-group">
+            <p>Phone number <span>*</span></p>
+
+                <input type="text" name="phone" id="phone" maxlength="10" required placeholder="Enter Phone Number" pattern="^[1-9][0-9]{9}$" />
+
+            </div>
+<!-- End of form-group class 6-->
+
+
+
+            <div class="form-group">
+            <p>Order here <span>*</span></p>
+
+                <textarea name="message" rows="14" required placeholder="Enter the products you wish to order" "></textarea>
+
+<!-- End of form-group class 7-->
+    </div><!-- End of Rightcontact class-->
+    <!--End of the form-->
+    </div>
+
+<button type="submit" class="bouton-contact">Send</button>
+
+</form>
+
+
+
+
+
+</body>
+</html>

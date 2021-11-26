@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" type="text/css" href="login.css" media="screen" />
+  <title>GROCERY MART</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/login.css">
+  <link rel="stylesheet" href="font-awesome/font-awesome/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+
+      footer{
+
+    position:fixed;
+   left:0px;
+   bottom:0px;
+   height:80px;
+   width:100%;
+   background:#999;
+      }
+      p > a{
+  font-weight: bold;
+  font-size: 25px;
+  float: right;
+}
+
+ label{
+ color: black;
+ }
+input{
+border-radius: 0px 5px 5px 0px;
+  border: 1px solid #eee;
+  height: 30px;
+  padding: 0px 15px;
+  width: 100%;
+ }
+ p span{
+  color: #F093B5;
+}
+  </style>
+
+
+</head>
+<!---*****************************************-->
+<!--Body begins here-->
+<body style="background-color: #E8F5E9;">
+
+
+    <!-- <div class="othernavbar"> -->
+      <div class="nbar">
+        <nav class="navbar navbar-default" style="width:100%; height:35px; background-color:#1a1a1a; border-color: #1a1a1a;">
+            <div class="container-fluid" id="navpro">
+               <ul class="nav navbar-nav navbar-right">
+                 <li><a href="first_page.html"><b style="color: #388E3C;">Home</b></a></li>
+                 <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b style="color: #388E3C;">Shop</b><b class="caret"></b></a>
+                  <ul class="dropdown-menu multi-column columns-3">
+                    <div class="row">
+                      <div class="multi-gd-img">
+                        <ul class="multi-column-dropdown">
+                          <li><a href="grocery.html">Groceries</a></li>
+                          <li><a href="household.html">Household</a></li>
+                          <li><a href="personalcare.html">Personal Care</a></li>
+                          <li><a href="packagedfoods.html">Packaged Foods</a></li>
+                          <li><a href="beverages.html">Tea &amp; Coffee</a></li>
+                        </ul>
+                      </div>					
+                    </div>
+                  </ul>
+              </li>
+  
+              <li><a href="/about.html"><b style="color: #388E3C;">About us</b></a></li>
+              <li><a href="/login.html"><b style="color: #388E3C;">Login</b></a></li>
+              <li><a href="register.html"><b style="color: #388E3C;">Create Account</b></a></li>
+              <li><a href="contact.html"><b style="color: #388E3C;">Contact us</b></a></li>
+              </ul>
+            </div>
+        </nav>
+      </div>
+
+      <br>
+      <div class="head2" style="display: flex;">
+        <div class="logoup">
+          <img src="images/grocerylogo.png" alt="logo" style="height: 60px; width: 100px;">
+        </div>
+
+        <div class="name" id="shopname" style="display: flex; margin-left: 600px;margin-top: -30px;">
+          <h1 style="color: #388E3C;font-family: 'Ubuntu', sans-serif;">GROCERY </h1>
+          <h1 style="color: #000000;font-family: 'Ubuntu', sans-serif;">&nbsp;MART</h1>
+        </div>
+      </div>
+
+    <div class="row" id="row1">
+        <div id="welcome" class="header">SIGN UP!</div>
+        <!---User name and Password-->
+        <div>
+          <div id="form-main">
+           <div id="form-div">
+             <!--************-->
+             <form method="post" class="minimal">
+    <label for="username">
+        Username:
+        <input type="text" name="username" id="username" placeholder="Enter username" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{8,20}$" required="required" />
+        <p><span>* Must be between 8 to 20 characters</span></p>
+    </label>
+    <label for="password">
+        Password:
+        <input type="password" name="password" id="password" placeholder="Enter password" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required="required" />
+        <p><span>* Must contain 1 uppercase, lowercase and number</span></p>
+    </label>
+    <br>
+    <label for="Confirm password">
+        Confirm Password:
+    <input type="password" placeholder="Confirm Password" id="confirm_password" required>
+    <br>
+    <br>
+    <button type="submit" onclick="return Validate()">Create Account</button>
+
+</form>
+<script type="text/javascript">
+    function Validate() {
+        var password = document.getElementById("password").value;
+        var confirmPassword = document.getElementById("confirm_password").value;
+        if (password != confirmPassword) {
+            alert("Passwords do not match.");
+            return false;
+        }
+        else{
+          alert("Form Submitted");
+        }
+        return true;
+    }
+</script>
+<!--**********-->
+           </div>
+         </div>
+        </div>
+    </div>
+
+      <footer>
+    The project is for J component purpose only.
+    <p>Created by Aniket|<a href="/contact.html">Contact Us</a></p></footer>
+    </div>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
